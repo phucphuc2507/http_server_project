@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Nhập tên</title></head>
+<body>
+  <h2>Lần đầu truy cập từ IP __IP__</h2>
+  <form action="/save-name" method="POST">
+    <input type="hidden" name="ip" value="__IP__">
+    <label>Tên của bạn:</label>
+    <input type="text" name="name" required>
+    <button type="submit">Lưu</button>
+  </form>
+</body>
+</html>
